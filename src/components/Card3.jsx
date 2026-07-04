@@ -1,5 +1,5 @@
 import React from 'react'
-import cardimg1 from '../assets/cardimg.svg'
+import cardimg1 from '../assets/cardImg.svg'
 
 function Card3() {
     const projectData = [
