@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+/* @theme {
+  --font-Inter: "Inter", sans-serif;
+} */
+/* Rectangle 11 */
+
+
+
+.sh {
+  box-shadow: 0px 0px 7.1px -1px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.conteners {
+  @apply lg:w-[1164px] w-full md:mx-auto border border-dashed flex flex-col justify-center
+}
+
+.about {
+  @apply lg:h-[500px] h-full border-b-0 border-t-0 md:p-5 py-5 flex flex-col lg:flex-row md:justify-between md:items-center
+}
+
+.hero {
+  @apply md:h-[653px] h-full py-5 border-t-0 md:p-5 flex items-center flex-col
+}
+
+.skills {
+  @apply lg:h-[591px] h-full border-b-1 border-t-0 bg-[#F5F5F5] dark:bg-black dark:text-white
+}
+
+.tools {
+  @apply h-[238px] border-t-0 border-b-0 bg-[#F5F5F5] hidden md:block
+}
+
+.tools-top {
+  @apply border border-r-0 border-t-0 h-full border-black border-dashed w-1/6 border-b-0
+}
+
+.tools-bottom {
+  @apply border border-r-0 border-t-0 h-full border-white border-dashed w-2/6 border-b-0
+}
+
+.center {
+  @apply flex items-center justify-center
+}
+
+.experience {
+  @apply lg:h-[591px] h-full border-t-0 border-b-1
+}
+
+.projects {
+  @apply h-full border-t-0 border-b-0
+}
+
+.contect {
+  @apply md:h-[718px] h-full border-t-0 border-b-0 bg-[#F5F5F5] dark:bg-black dark:text-white
+}
+
+.soiler {
+  @apply h-[70px] border-t-0 border-b-1 border-dashed
+}
+
+/* Rectangle 31 */
+
+.key {
+  background: #000000;
+  border: 3px solid rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  padding: 0px 20px;
+}
+
+.test::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: red;
+
+
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #06b6d4;
+  color: transparent;
+}
