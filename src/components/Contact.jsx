@@ -1,6 +1,6 @@
 import React from 'react'
 import emailIcon from '../assets/emailIcon.svg'
-import phoneicon from '../assets/phoneIcon.svg'
+import phoneicon from '../assets/phone.svg'
 import telegramIcon from '../assets/telegramIcon.svg'
 
 function Contact() {
