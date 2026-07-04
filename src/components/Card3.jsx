@@ -5,7 +5,7 @@ function Card3() {
     const projectData = [
         {
             id: 1,
-            icon: <img src={cardimg} alt="ProConnect Icon" className="w-full" />,
+            icon: <img src={cardimg1} alt="ProConnect Icon" className="w-full" />,
             heading: "ProConnect",
             tag: "Frontend",
             tec: ["React", "Next.js", "Tailwind CSS"],
@@ -14,7 +14,7 @@ function Card3() {
         },
         {
             id: 2,
-            icon: <img src={cardimg} alt="ProConnect Icon" className="w-full" />,
+            icon: <img src={cardimg1} alt="ProConnect Icon" className="w-full" />,
             heading: "ProConnect",
             tag: "Frontend",
             tec: ["React", "Next.js", "Tailwind CSS"],
@@ -23,7 +23,7 @@ function Card3() {
         },
         {
             id: 3,
-            icon: <img src={cardimg} alt="ProConnect Icon" className="w-full" />,
+            icon: <img src={cardimg1} alt="ProConnect Icon" className="w-full" />,
             heading: "ProConnect",
             tag: "Frontend",
             tec: ["React", "Next.js", "Tailwind CSS"],
