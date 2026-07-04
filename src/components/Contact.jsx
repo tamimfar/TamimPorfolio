@@ -1,6 +1,6 @@
 import React from 'react'
 import emailIcon from '../assets/emailIcon.svg'
-import phoneIcon from '../assets/phoneIcon.svg'
+import phoneicon from '../assets/phoneIcon.svg'
 import telegramIcon from '../assets/telegramIcon.svg'
 
 function Contact() {
@@ -15,7 +15,7 @@ function Contact() {
                     <h3 className='text-[32px] font-medium font-["Montserrat"]'>Let’s discuss on something cool together</h3>
                     <div className='md:h-[200px] flex flex-col justify-center items-start mt-5 rounded-lg px-5 py-3 border-l-3 opacity-60'>
                         <p className='text-[16px] font-medium font-["Montserrat"] opacity-60 mt-3 flex gap-2'><span><img src={emailIcon} alt="emailIcon" className=' w-6 h-6' /></span>Tamim@gmail.com</p>
-                        <p className='text-[16px] font-medium font-["Montserrat"] opacity-60 mt-3 flex gap-2'><span><img src={phoneIcon} alt="phoneIcon" className=' w-6 h-6' /></span>01726143933</p>
+                        <p className='text-[16px] font-medium font-["Montserrat"] opacity-60 mt-3 flex gap-2'><span><img src={phoneicon} alt="phoneIcon" className=' w-6 h-6' /></span>01726143933</p>
                     </div>
                 </div>
                 <div className=''>
