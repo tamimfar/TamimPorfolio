@@ -8,7 +8,7 @@ import Card2 from './Card2'
 
 function Skills() {
     return (
-        <div className='conteners skills'>
+        <div className='conteners skills' id="skills">
             <div className='flex flex-col justify-center items-center  border-b-1 border-dashed py-3'>
                 <h1 className='text-[32px] font-["Inder"] text-center'>my Skills</h1>
                 <p className='md:w-[513px] w-full font-["Montserrat"] opacity-50 md:text-[16px] text-sm text-center  '>Technologies I Master as a Full-Stack Developer</p>

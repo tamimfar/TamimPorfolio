@@ -6,7 +6,7 @@ import csv from '../assets/csv.svg'
 
 function About() {
     return (
-        <div className='conteners about px-5'>
+        <div className='conteners about px-5' id="about">
             <div>
                 <div className=' flex items-end gap-2 text-[32px] font-["Inder"]'>
                     <h1 className='md:text-[32px] text-[24px]'>About Me</h1>

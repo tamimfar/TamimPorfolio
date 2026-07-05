@@ -5,7 +5,7 @@ import telegramIcon from '../assets/telegramIcon.svg'
 
 function Contact() {
     return (
-        <div className='conteners contect '>
+        <div className='conteners contect ' id="contact">
             <div className='text-center border-b-1 py-3 border-dashed' >
                 <h1 className='text-[32px] font-medium text-center font-["Inder"]  '>STAY IN TOUCH</h1>
                 <p className='text-center text-[15px] font-medium font-["Montserrat"] opacity-60 '>Hire Your Next MERN Stack & Next.js Developer</p>

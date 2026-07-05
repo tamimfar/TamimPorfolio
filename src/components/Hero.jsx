@@ -4,13 +4,14 @@ import Ellipse from '../assets/Ellipse.svg'
 import Line from '../assets/Line.svg'
 import { motion } from "motion/react";
 import TextRebel from '../anmetion/TextRebel';
+import heroimd from '../assets/myimg.jpeg'
 
 
 function Hero() {
     const text = `I'm a Full Stack Web Developer `;
 
     return (
-        <div className=" conteners hero ">
+        <div className=" conteners hero " id="home" >
             <div className='  flex justify-center'>
 
 
@@ -18,7 +19,7 @@ function Hero() {
             <div className='md:w-[322px] lg:h-[346px] mx-auto  relative flex justify-center items-center flex-col'>
 
                 <img src={Group} alt="" className=' absolute -left-3' />
-                <img src={Ellipse} alt="" className='' />
+                <img src={heroimd} alt="" className=' lg:h-[220px] lg:w-[210px] w-[160px] h-[170px] z-10 rounded-full ' />
             </div>
             <div className='lg:w-[904px]  w-full mx-auto  '>
                 <div>

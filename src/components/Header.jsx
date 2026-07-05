@@ -5,11 +5,12 @@ export default function Header() {
     const [open, setOpen] = useState(false);
 
     const navLinks = [
-        { name: "Home", href: "#" },
-        { name: "About", href: "#" },
-        { name: "Skills", href: "#" },
-        { name: "Projects", href: "#" },
-        { name: "Contact", href: "#" },
+        { name: "Home", href: "/" },
+        { name: "About", href: "/#about" },
+        { name: "Skills", href: "/#skills" },
+        { name: "Experiences", href: "/#Experiences" },
+        { name: "Projects", href: "/#projects" },
+        { name: "Contact", href: "/#contact" },
     ];
 
     return (

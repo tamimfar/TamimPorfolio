@@ -6,7 +6,7 @@ import keyLine from '../assets/keyLine.svg'
 
 function Experiences() {
     return (
-        <div className=' conteners h-[661px] experience '>
+        <div className=' conteners h-[661px] experience ' id="Experiences">
             <div className='flex flex-col  border-b border-dashed justify-center items-center py-3  font-["Inder"] '>
                 <h1 className=' font-bold text-center text-[32px] font-medium '>My Experiences</h1>
                 <p className='text-center font-[Montserrat] text-[16px] opacity-70 '>Where I’ve worked</p>
